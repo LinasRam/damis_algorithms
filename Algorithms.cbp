@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Algorithms" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Algorithms" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="-al RELATIVEMDS -eps 0.0000001 -d 2 -maxIter 100 -selStrategy 2 -noOfBaseVectors 50 -i /home/damis/Documents/DamisData/input.arff  -o /home/damis/Documents/DamisData/output.arff  -s   /home/damis/Documents/DamisData/_algRunStat_test.arff" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Algorithms" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c++11" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="ARFF.cpp" />
+		<Unit filename="ARFF.h" />
+		<Unit filename="AdditionalMethods.cpp" />
+		<Unit filename="AdditionalMethods.h" />
+		<Unit filename="ClusterizationMethods.cpp" />
+		<Unit filename="ClusterizationMethods.h" />
+		<Unit filename="DECTREE.cpp" />
+		<Unit filename="DECTREE.h" />
+		<Unit filename="DMA.cpp" />
+		<Unit filename="DMA.h" />
+		<Unit filename="DataMatrix.h" />
+		<Unit filename="DataObject.cpp" />
+		<Unit filename="DataObject.h" />
+		<Unit filename="DimReductionMethod.cpp" />
+		<Unit filename="DimReductionMethod.h" />
+		<Unit filename="DistanceMetrics.cpp" />
+		<Unit filename="DistanceMetrics.h" />
+		<Unit filename="DistanceMetricsEnum.h" />
+		<Unit filename="HPCMethod.cpp" />
+		<Unit filename="HPCMethod.h" />
+		<Unit filename="KMEANS.cpp" />
+		<Unit filename="KMEANS.h" />
+		<Unit filename="MDS.cpp" />
+		<Unit filename="MDS.h" />
+		<Unit filename="MLP.cpp" />
+		<Unit filename="MLP.h" />
+		<Unit filename="ObjectMatrix.cpp" />
+		<Unit filename="ObjectMatrix.h" />
+		<Unit filename="PCA.cpp" />
+		<Unit filename="PCA.h" />
+		<Unit filename="Projection.cpp" />
+		<Unit filename="Projection.h" />
+		<Unit filename="ProjectionEnum.h" />
+		<Unit filename="SAMANN.cpp" />
+		<Unit filename="SAMANN.h" />
+		<Unit filename="SDS.cpp" />
+		<Unit filename="SDS.h" />
+		<Unit filename="SMACOF.cpp" />
+		<Unit filename="SMACOF.h" />
+		<Unit filename="SMACOFZEIDEL.cpp" />
+		<Unit filename="SMACOFZEIDEL.h" />
+		<Unit filename="SOM.cpp" />
+		<Unit filename="SOM.h" />
+		<Unit filename="SOMMDS.cpp" />
+		<Unit filename="SOMMDS.h" />
+		<Unit filename="ShufleEnum.h" />
+		<Unit filename="ShufleObjects.cpp" />
+		<Unit filename="ShufleObjects.h" />
+		<Unit filename="Statistics.cpp" />
+		<Unit filename="Statistics.h" />
+		<Unit filename="WebInterface.h" />
+		<Unit filename="alglib/alglibinternal.cpp" />
+		<Unit filename="alglib/alglibinternal.h" />
+		<Unit filename="alglib/alglibmisc.cpp" />
+		<Unit filename="alglib/alglibmisc.h" />
+		<Unit filename="alglib/ap.cpp" />
+		<Unit filename="alglib/ap.h" />
+		<Unit filename="alglib/dataanalysis.cpp" />
+		<Unit filename="alglib/dataanalysis.h" />
+		<Unit filename="alglib/diffequations.cpp" />
+		<Unit filename="alglib/diffequations.h" />
+		<Unit filename="alglib/fasttransforms.cpp" />
+		<Unit filename="alglib/fasttransforms.h" />
+		<Unit filename="alglib/integration.cpp" />
+		<Unit filename="alglib/integration.h" />
+		<Unit filename="alglib/interpolation.cpp" />
+		<Unit filename="alglib/interpolation.h" />
+		<Unit filename="alglib/linalg.cpp" />
+		<Unit filename="alglib/linalg.h" />
+		<Unit filename="alglib/optimization.cpp" />
+		<Unit filename="alglib/optimization.h" />
+		<Unit filename="alglib/solvers.cpp" />
+		<Unit filename="alglib/solvers.h" />
+		<Unit filename="alglib/specialfunctions.cpp" />
+		<Unit filename="alglib/specialfunctions.h" />
+		<Unit filename="alglib/statistics.cpp" />
+		<Unit filename="alglib/statistics.h" />
+		<Unit filename="alglib/stdafx.h" />
+		<Unit filename="cmdLineParser/CommandLineParser.cpp" />
+		<Unit filename="cmdLineParser/CommandLineParser.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
