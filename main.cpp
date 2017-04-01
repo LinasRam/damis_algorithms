@@ -43,6 +43,7 @@
 int AdditionalMethods::PID;    //  seed for random numbers generator
 std::string AdditionalMethods::inputDataFile = ""; // input data file that will be passed to the HPC method constructor
 std::string AdditionalMethods::inputDataFile2 = "";
+std::string AdditionalMethods::inputDataFile3 = "";
 
 void PrintMatrix(ObjectMatrix);                                                 // Y atvaizdavimas ekrane (testavimui)
 double strToDouble(std::string);                                                // command line parameter to double type
@@ -54,7 +55,7 @@ void paralelCompute(int pid, int numOfProcs, T *mthd, std::string resultFile, st
 int main(int argc, char** argv)
 {
 
-    std::string inputFile = "", inputFile2 = "", resultFile="", statFile="";     // pradiniu duomenu, rezultatų ir paklaidų failai
+    std::string inputFile = "", inputFile2 = "",inputFile3 = "" , resultFile="", statFile="";     // pradiniu duomenu, rezultatų ir paklaidų failai
     std::string tmp ="";
     const char* send;                                        //temp parameter for call method selection
     int tmpPathSize;
@@ -84,13 +85,15 @@ int main(int argc, char** argv)
 
     inputFile = cmdLine.get_arg("-i");
     inputFile2 = cmdLine.get_arg("-ii");
+    inputFile3 = cmdLine.get_arg("-iii");
     resultFile = cmdLine.get_arg("-o");
     statFile = cmdLine.get_arg("-s");
 
-    if (!inputFile.empty() || !inputFile2.empty() || !resultFile.empty() || !statFile.empty())
+    if (!inputFile.empty() || !inputFile2.empty() || !inputFile3.empty()||!resultFile.empty() || !statFile.empty())
     {
         AdditionalMethods::inputDataFile.assign(inputFile);
         AdditionalMethods::inputDataFile2.assign(inputFile2);
+        AdditionalMethods::inputDataFile3.assign(inputFile3);
 
         //generate file name for X distance matrix
         //if (pid == 0) // if it is master then generate and brodcast the distance matrix file name
@@ -112,6 +115,15 @@ int main(int argc, char** argv)
                 std::cout <<"Unable to generate file name for X distance matrix";
                 return 0;
             }
+            AdditionalMethods::tempFileSavePath3 = strdup(AdditionalMethods::generateFileName3().c_str());
+
+            if (AdditionalMethods::tempFileSavePath3 == "")
+            {
+                MPI_Finalize();
+                std::cout <<"Unable to generate file name for X distance matrix";
+                return 0;
+            }
+
 
         //     tmpPathSize = strlen(AdditionalMethods::tempFileSavePath) + 2; //get size of the generated file path + 2 adds space to '\0' symbols
        // }

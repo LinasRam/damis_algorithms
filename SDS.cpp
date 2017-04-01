@@ -52,6 +52,8 @@ SDS::SDS(double eps, int maxIter, int dim, ProjectionEnum baseVectInit, int nofB
     X.loadDataMatrix();
     XX = ObjectMatrix(AdditionalMethods::inputDataFile2);
     XX.loadDataMatrix();
+    XXX = ObjectMatrix(AdditionalMethods::inputDataFile3);
+    XXX.loadDataMatrix();
     epsilon = eps;
     maxIteration = maxIter;
     //  d = dim;

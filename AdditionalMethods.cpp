@@ -21,8 +21,10 @@
 const char* AdditionalMethods::alphanum= "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 char *AdditionalMethods::tempFileSavePath = "";
 char *AdditionalMethods::tempFileSavePath2 = "";
+char *AdditionalMethods::tempFileSavePath3 = "";
 std::string AdditionalMethods::tempPath = "";
 std::string AdditionalMethods::tempPath2 = "";
+std::string AdditionalMethods::tempPath3 = "";
 FILE *AdditionalMethods::distFile = NULL;
 //int AdditionalMethods::distFileCreated = 0;
 time_t AdditionalMethods::startTime = 0;
@@ -104,7 +106,36 @@ std::string AdditionalMethods::generateFileName2()
 
     return  catString;
 }
+std::string AdditionalMethods::generateFileName3()
+{
+    time_t t;
+    time(&t);
+    srand((unsigned int)(t+rand()));
 
+    std::string catString, path;
+    path.assign(AdditionalMethods::inputDataFile3);
+
+    std::string::size_type tt = path.find_last_of("/");
+    path = path.substr(0,tt) + "/";
+    AdditionalMethods::tempPath3.assign(path);
+    catString.assign(AdditionalMethods::tempPath3);
+
+    int i;
+    int qty = 20;
+
+       /* char PID[5];
+        snprintf(PID, sizeof(PID), "%d", AdditionalMethods::PID);*/
+
+    for ( i = 0; i < qty; ++i)
+        catString += (AdditionalMethods::alphanum[rand() % (strlen(AdditionalMethods::alphanum) - 1)]);
+   ///
+    /*catString +="_";
+    catString +=PID;*/
+   ///
+    catString +=".bin";
+
+    return  catString;
+}
 
 double** AdditionalMethods::ObjectMatrixToDouble(ObjectMatrix matrix)
 {

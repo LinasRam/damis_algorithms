@@ -106,6 +106,10 @@ public:
     * Function that generates file name
     */
     static std::string generateFileName2();
+    /*!
+    * Function that generates file name
+    */
+    static std::string generateFileName3();
     /*! \var int PID;
     *  \brief Processor's ID. Used as part of the seed in random numbers generator.
     */
@@ -118,6 +122,10 @@ public:
     *  \brief File to process.
     */
     static std::string  inputDataFile2;
+    /*! \var std::string inputDataFile3;
+    *  \brief File to process.
+    */
+    static std::string  inputDataFile3;
     /*! \var std::string fileSavePath;
     *  \brief Location where temporary matrix X distances will be saved.
     */
@@ -126,6 +134,10 @@ public:
     *  \brief Location where temporary matrix XX distances will be saved.
     */
     static char *tempFileSavePath2;
+    /*! \var std::string fileSavePath2;
+    *  \brief Location where temporary matrix XXX distances will be saved.
+    */
+    static char *tempFileSavePath3;
     /*! \var std::string distFileName;
     *  \brief Random generated file name of the X distance matrix.
     */
@@ -134,6 +146,10 @@ public:
     *  \brief Random generated file name of the XX distance matrix.
     */
     static std::string tempPath2;
+    /*! \var std::string distFileName3;
+    *  \brief Random generated file name of the XXX distance matrix.
+    */
+    static std::string tempPath3;
     /*!
     * Holds pointer to bin file
     */

@@ -36,6 +36,10 @@ public:
      *  \brief Initial input data matrix.
      */
     ObjectMatrix XX;
+    /*! \var ObjectMatrix XXX
+     *  \brief Initial input data matrix.
+     */
+    ObjectMatrix XXX;
     /*! \fn virtual void sendMessage();
      *  \brief Sends a message to Web interface.
      */
