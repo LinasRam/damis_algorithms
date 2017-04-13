@@ -30,6 +30,7 @@ public:
     static ObjectMatrix X_base;
     static ObjectMatrix Y_base;
     static ObjectMatrix X_new;
+
 };
 
 ObjectMatrix StaticData::X_base;
@@ -65,7 +66,7 @@ SDS::SDS(double eps, int maxIter, int dim, ProjectionEnum baseVectInit, int nofB
 ObjectMatrix SDS::getProjection()
 {
     int m = X.getObjectCount();
-  //  std::vector<std::string> initClasses = X.getStringClassAttributes();
+    //  std::vector<std::string> initClasses = X.getStringClassAttributes();
     int step = 0, rest = 0;
     StaticData::X_base = ObjectMatrix(nb);
     StaticData::X_new = ObjectMatrix(m - nb);
@@ -108,18 +109,18 @@ ObjectMatrix SDS::getProjection()
             StaticData::X_new.addObject(X.getObjectAt(index.at(i)));
     }
 
- //   StaticData::X_base.setIsClassPresent();
+//   StaticData::X_base.setIsClassPresent();
 
- /*  for (int i = 0; i < StaticData::X_base.getObjectCount(); i++)
-           std::cout <<StaticData::X_base.getObjectAt(i).getClassLabel();*/
+    /*  for (int i = 0; i < StaticData::X_base.getObjectCount(); i++)
+              std::cout <<StaticData::X_base.getObjectAt(i).getClassLabel();*/
 
 
 
     PCA_ pca(StaticData::X_base, d);
     StaticData::Y_base = pca.getProjection();
 
-  /* for (int i = 0; i < StaticData::Y_base.getObjectCount(); i++)
-           std::cout <<StaticData::Y_base.getObjectAt(i).getClassLabel();*/
+    /* for (int i = 0; i < StaticData::Y_base.getObjectCount(); i++)
+             std::cout <<StaticData::Y_base.getObjectAt(i).getClassLabel();*/
 
     SMACOF smcf(epsilon, maxIteration, d, StaticData::X_base, StaticData::Y_base);
     StaticData::Y_base = smcf.getProjection();
@@ -132,7 +133,7 @@ ObjectMatrix SDS::getProjection()
 
     for (int i = 0; i < nb; i++)
         Y.addObject(StaticData::Y_base.getObjectAt(i), X.getObjectAt(index.at(i)).getClassLabel()); //neaisku ar nesumaiso klasių
-   //     Y.addObject(StaticData::Y_base.getObjectAt(i), X.getObjectAt(i).getClassLabel());
+    //     Y.addObject(StaticData::Y_base.getObjectAt(i), X.getObjectAt(i).getClassLabel());
 
 //sudedam tai kas grazinama is QN
     ObjectMatrix tmpX;

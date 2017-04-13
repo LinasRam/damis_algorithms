@@ -317,7 +317,7 @@
 	"AdditionalMethods.h"
 	<iostream>
 
-1491063528 source:/home/damis/Documents/CBProjects/Algorithms/main.cpp
+1492096073 source:/home/damis/Documents/CBProjects/Algorithms/main.cpp
 	<cstdlib>
 	<vector>
 	<iostream>
@@ -335,6 +335,7 @@
 	"SAMANN.h"
 	"SMACOFZEIDEL.h"
 	"SDS.h"
+	"SDS2.h"
 	"SOM.h"
 	"SOMMDS.h"
 	"DMA.h"
@@ -450,7 +451,7 @@
 	<float.h>
 	<iostream>
 
-1491061360 source:/home/damis/Documents/CBProjects/Algorithms/SDS.cpp
+1492089363 source:/home/damis/Documents/CBProjects/Algorithms/SDS.cpp
 	"SDS.h"
 	"ShufleObjects.h"
 	"Projection.h"
@@ -513,4 +514,28 @@
 	<time.h>
 	<stdlib.h>
 	<iostream>
+
+1492093424 source:/home/damis/Documents/CBProjects/Algorithms/SDS2.cpp
+	"SDS2.h"
+	"ShufleObjects.h"
+	"Projection.h"
+	"PCA.h"
+	"SMACOF.h"
+	"alglib/optimization.h"
+	"DistanceMetrics.h"
+	"AdditionalMethods.h"
+	"ObjectMatrix.h"
+	<float.h>
+	<cmath>
+	<iostream>
+
+1492080774 /home/damis/Documents/CBProjects/Algorithms/include/SDS2.h
+
+1492093022 /home/damis/Documents/CBProjects/Algorithms/SDS2.h
+	"ObjectMatrix.h"
+	"PCA.h"
+	"SMACOF.h"
+	"MDS.h"
+	"DistanceMetricsEnum.h"
+	"ProjectionEnum.h"
 

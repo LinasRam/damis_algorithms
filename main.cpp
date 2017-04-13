@@ -22,6 +22,7 @@
 #include "SAMANN.h"
 #include "SMACOFZEIDEL.h"
 #include "SDS.h"
+#include "SDS2.h"
 #include "SOM.h"
 #include "SOMMDS.h"
 #include "DMA.h"
@@ -170,16 +171,21 @@ int main(int argc, char** argv)
             int pEnum = strToInt(cmdLine.get_arg("-selStrategy"));
             //SDS(double eps, int maxIter, int d, ProjectionEnum baseVectInitt, int nofBaseVect, DistanceMetricsEnum distMetrics);
             SDS *method;
-
+            SDS2 *method2;
             if (pEnum == 1)
                 method = new SDS(strToDouble(cmdLine.get_arg("-eps")), strToInt(cmdLine.get_arg("-maxIter")), strToInt(cmdLine.get_arg("-d")), ProjectionEnum::RAND, strToInt(cmdLine.get_arg("-noOfBaseVectors")), EUCLIDEAN); //may be manhatan or chebyshew
             else if (pEnum == 2)
+            {
                 method = new SDS(strToDouble(cmdLine.get_arg("-eps")), strToInt(cmdLine.get_arg("-maxIter")), strToInt(cmdLine.get_arg("-d")), ProjectionEnum::PCA, strToInt(cmdLine.get_arg("-noOfBaseVectors")), EUCLIDEAN); //may be manhatan or chebyshew
+                method2=  new SDS2(strToDouble(cmdLine.get_arg("-eps")), strToInt(cmdLine.get_arg("-maxIter")),strToInt(cmdLine.get_arg("-d")));
+            }
             else
                 method = new SDS(strToDouble(cmdLine.get_arg("-eps")), strToInt(cmdLine.get_arg("-maxIter")), strToInt(cmdLine.get_arg("-d")), ProjectionEnum::DISPERSION, strToInt(cmdLine.get_arg("-noOfBaseVectors")), EUCLIDEAN); //may be manhatan or chebyshew
 
             //std::cout << strToDouble(cmdLine.get_arg("-eps")) <<" "<< strToInt(cmdLine.get_arg("-maxIter")) <<" "<< strToInt(cmdLine.get_arg("-d")) <<" "<< strToInt(cmdLine.get_arg("-selStrategy")) <<" "<< strToInt(cmdLine.get_arg("-noOfBaseVectors")) <<" "<< EUCLIDEAN;
             paralelCompute(pid, numOfProcs, method, resultFile, statFile);
+
+           paralelCompute(pid, numOfProcs, method2, resultFile, statFile);
         }
         else if (tmp == "SMACOFMDS")
         {
