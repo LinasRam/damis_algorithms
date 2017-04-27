@@ -11,9 +11,11 @@
 				<Option object_output="obj/Debug/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
-				<Option parameters="-al RELATIVEMDS -eps 0.0000001 -d 2 -maxIter 100 -selStrategy 2 -noOfBaseVectors 50 -i /home/damis/Documents/DamisData/input.arff  -o /home/damis/Documents/DamisData/output.arff  -s   /home/damis/Documents/DamisData/_algRunStat_test.arff" />
+				<Option parameters="-al RELATIVEMDS -eps 0.0000001 -d 2 -maxIter 100 -selStrategy 2 -noOfBaseVectors 50 -i /home/damis/Documents/DamisData/input.arff -ii /home/damis/Documents/DamisData/input2.arff -iii /home/damis/Documents/DamisData/input3.arff -o /home/damis/Documents/DamisData/output.arff  -s   /home/damis/Documents/DamisData/_algRunStat_test.arff" />
 				<Compiler>
 					<Add option="-g" />
+					<Add directory="include" />
+					<Add directory="../Algorithms" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -23,6 +25,8 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
+					<Add directory="include" />
+					<Add directory="../Algorithms" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -71,6 +75,8 @@
 		<Unit filename="SAMANN.h" />
 		<Unit filename="SDS.cpp" />
 		<Unit filename="SDS.h" />
+		<Unit filename="SDS2.cpp" />
+		<Unit filename="SDS2.h" />
 		<Unit filename="SMACOF.cpp" />
 		<Unit filename="SMACOF.h" />
 		<Unit filename="SMACOFZEIDEL.cpp" />

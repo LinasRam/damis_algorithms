@@ -54,16 +54,16 @@ SDS2::SDS2(double eps, int maxIter, int dim):MDS(eps, maxIter, dim)
 
 ObjectMatrix SDS2::getProjection()
 {
-  //  std::vector<std::string> initClasses = X.getStringClassAttributes();
+   // std::vector<std::string> initClasses = X.getStringClassAttributes();
 
     int step = 0, rest = 0;
     StaticData2::X_base = XX;
     StaticData2::X_new = X;
     StaticData2::Y_base = XXX;
-    Y_new = ObjectMatrix(XObjCount);
+    Y_new = ObjectMatrix(X.getObjectCount());
    // ObjectMatrix proj(m);
     std::vector<unsigned int> index;
-    index.reserve(XObjCount);
+    index.reserve(X.getObjectCount());
 /*
     switch (initMethod)
     {
@@ -121,7 +121,7 @@ ObjectMatrix SDS2::getProjection()
     //initializeProjectionMatrix();
 
     for (int i = 0; i < XXObjCount; i++)
-        Y.addObject(StaticData2::Y_base.getObjectAt(i), X.getObjectAt(index.at(i)).getClassLabel()); //neaisku ar nesumaiso klasių
+        Y.addObject(StaticData2::Y_base.getObjectAt(i), X.getObjectAt(i).getClassLabel()); //neaisku ar nesumaiso klasių
    //     Y.addObject(StaticData::Y_base.getObjectAt(i), X.getObjectAt(i).getClassLabel());
 
 //sudedam tai kas grazinama is QN
@@ -130,7 +130,7 @@ ObjectMatrix SDS2::getProjection()
     for (int i = 0; i < XObjCount; i++) //redo slow call and much more
     {
         //StaticData::X_new.clearDataObjects();
-        tmpX.addObject(X.getObjectAt(index.at(i)));
+        tmpX.addObject(X.getObjectAt(i));
         StaticData2::X_new = tmpX;
 
         // StaticData::X_new.addObject(X.getObjectAt(index.at(nb + i)));
@@ -139,7 +139,7 @@ ObjectMatrix SDS2::getProjection()
         //std::cout << i << std::endl;
         // retMat = getQN(tmpY);
 
-        Y.addObject(getQN(Y_new.getObjectAt(i)), X.getObjectAt(index.at(i)).getClassLabel()) ;//retMat.getObjectAt(0));
+        Y.addObject(getQN(Y_new.getObjectAt(i)), X.getObjectAt(i).getClassLabel()) ;//retMat.getObjectAt(0));
         //Y.addObject(getQN(Y_new.getObjectAt(i)), X.getObjectAt(nb + i).getClassLabel()) ; //neaisku ar nesumaiso klasių
 
         //   tmpY.clearDataObjects();
