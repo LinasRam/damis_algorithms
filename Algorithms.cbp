@@ -11,7 +11,7 @@
 				<Option object_output="obj/Debug/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
-				<Option parameters="-al RELATIVEMDS -eps 0.0000001 -d 2 -maxIter 100 -selStrategy 2 -noOfBaseVectors 50 -i /home/damis/Documents/DamisData/input.arff -ii /home/damis/Documents/DamisData/input2.arff -iii /home/damis/Documents/DamisData/input3.arff -o /home/damis/Documents/DamisData/output.arff  -s   /home/damis/Documents/DamisData/_algRunStat_test.arff" />
+				<Option parameters="-al RELATIVEMDS2 -eps 0.0000001 -d 2 -maxIter 100 -selStrategy 2 -noOfBaseVectors 50 -i /home/damis/Documents/DamisData/input.arff -ii /home/damis/Documents/DamisData/input2.arff -iii /home/damis/Documents/DamisData/input3.arff -o /home/damis/Documents/DamisData/output.arff  -s   /home/damis/Documents/DamisData/_algRunStat_test.arff" />
 				<Compiler>
 					<Add option="-g" />
 					<Add directory="include" />
