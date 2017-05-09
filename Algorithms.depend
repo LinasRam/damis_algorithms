@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1491062525 source:/home/damis/Documents/CBProjects/Algorithms/AdditionalMethods.cpp
+1491482437 source:/home/damis/Documents/CBProjects/Algorithms/AdditionalMethods.cpp
 	<cstdlib>
 	<sstream>
 	<iostream>
@@ -9,24 +9,24 @@
 	"DataObject.h"
 	"alglib/dataanalysis.h"
 
-1491063302 /home/damis/Documents/CBProjects/Algorithms/AdditionalMethods.h
+1491482437 /home/damis/Documents/CBProjects/Algorithms/AdditionalMethods.h
 	"ObjectMatrix.h"
 	"DataObject.h"
 	"alglib/ap.h"
 
-1491061360 /home/damis/Documents/CBProjects/Algorithms/ObjectMatrix.h
+1491482437 /home/damis/Documents/CBProjects/Algorithms/ObjectMatrix.h
 	"DataObject.h"
 	"DataMatrix.h"
 	<vector>
 	<string>
 
-1491061360 /home/damis/Documents/CBProjects/Algorithms/DataObject.h
+1491482437 /home/damis/Documents/CBProjects/Algorithms/DataObject.h
 	<vector>
 
-1491061360 /home/damis/Documents/CBProjects/Algorithms/DataMatrix.h
+1491482437 /home/damis/Documents/CBProjects/Algorithms/DataMatrix.h
 	"ObjectMatrix.h"
 
-1491061360 /home/damis/Documents/CBProjects/Algorithms/alglib/ap.h
+1491482437 /home/damis/Documents/CBProjects/Algorithms/alglib/ap.h
 	<stdio.h>
 	<stdlib.h>
 	<stddef.h>
@@ -51,7 +51,7 @@
 	<xmmintrin.h>
 	<emmintrin.h>
 
-1491061360 /home/damis/Documents/CBProjects/Algorithms/alglib/dataanalysis.h
+1491482437 /home/damis/Documents/CBProjects/Algorithms/alglib/dataanalysis.h
 	"ap.h"
 	"alglibinternal.h"
 	"linalg.h"
@@ -61,52 +61,52 @@
 	"solvers.h"
 	"optimization.h"
 
-1491061360 /home/damis/Documents/CBProjects/Algorithms/alglib/alglibinternal.h
+1491482437 /home/damis/Documents/CBProjects/Algorithms/alglib/alglibinternal.h
 	"ap.h"
 
-1491061360 /home/damis/Documents/CBProjects/Algorithms/alglib/linalg.h
+1491482437 /home/damis/Documents/CBProjects/Algorithms/alglib/linalg.h
 	"ap.h"
 	"alglibinternal.h"
 	"alglibmisc.h"
 
-1491061360 /home/damis/Documents/CBProjects/Algorithms/alglib/alglibmisc.h
+1491482437 /home/damis/Documents/CBProjects/Algorithms/alglib/alglibmisc.h
 	"ap.h"
 	"alglibinternal.h"
 
-1491061360 /home/damis/Documents/CBProjects/Algorithms/alglib/statistics.h
+1491482437 /home/damis/Documents/CBProjects/Algorithms/alglib/statistics.h
 	"ap.h"
 	"alglibinternal.h"
 	"linalg.h"
 	"specialfunctions.h"
 
-1491061360 /home/damis/Documents/CBProjects/Algorithms/alglib/specialfunctions.h
+1491482437 /home/damis/Documents/CBProjects/Algorithms/alglib/specialfunctions.h
 	"ap.h"
 	"alglibinternal.h"
 
-1491061360 /home/damis/Documents/CBProjects/Algorithms/alglib/solvers.h
+1491482437 /home/damis/Documents/CBProjects/Algorithms/alglib/solvers.h
 	"ap.h"
 	"alglibinternal.h"
 	"linalg.h"
 	"alglibmisc.h"
 
-1491061360 /home/damis/Documents/CBProjects/Algorithms/alglib/optimization.h
+1491482437 /home/damis/Documents/CBProjects/Algorithms/alglib/optimization.h
 	"ap.h"
 	"alglibinternal.h"
 	"alglibmisc.h"
 	"linalg.h"
 	"solvers.h"
 
-1491061360 source:/home/damis/Documents/CBProjects/Algorithms/alglib/alglibinternal.cpp
+1491482437 source:/home/damis/Documents/CBProjects/Algorithms/alglib/alglibinternal.cpp
 	"stdafx.h"
 	"alglibinternal.h"
 
-1491061360 /home/damis/Documents/CBProjects/Algorithms/alglib/stdafx.h
+1491482437 /home/damis/Documents/CBProjects/Algorithms/alglib/stdafx.h
 
-1491061360 source:/home/damis/Documents/CBProjects/Algorithms/alglib/alglibmisc.cpp
+1491482437 source:/home/damis/Documents/CBProjects/Algorithms/alglib/alglibmisc.cpp
 	"stdafx.h"
 	"alglibmisc.h"
 
-1491061360 source:/home/damis/Documents/CBProjects/Algorithms/alglib/ap.cpp
+1491482437 source:/home/damis/Documents/CBProjects/Algorithms/alglib/ap.cpp
 	"stdafx.h"
 	"ap.h"
 	<limits>
@@ -122,41 +122,41 @@
 	<stdio.h>
 	<sys/time.h>
 
-1491061360 source:/home/damis/Documents/CBProjects/Algorithms/alglib/dataanalysis.cpp
+1491482437 source:/home/damis/Documents/CBProjects/Algorithms/alglib/dataanalysis.cpp
 	"stdafx.h"
 	"dataanalysis.h"
 
-1491061360 source:/home/damis/Documents/CBProjects/Algorithms/alglib/diffequations.cpp
+1491482437 source:/home/damis/Documents/CBProjects/Algorithms/alglib/diffequations.cpp
 	"stdafx.h"
 	"diffequations.h"
 
-1491061360 /home/damis/Documents/CBProjects/Algorithms/alglib/diffequations.h
+1491482437 /home/damis/Documents/CBProjects/Algorithms/alglib/diffequations.h
 	"ap.h"
 	"alglibinternal.h"
 
-1491061360 source:/home/damis/Documents/CBProjects/Algorithms/alglib/fasttransforms.cpp
+1491482437 source:/home/damis/Documents/CBProjects/Algorithms/alglib/fasttransforms.cpp
 	"stdafx.h"
 	"fasttransforms.h"
 
-1491061360 /home/damis/Documents/CBProjects/Algorithms/alglib/fasttransforms.h
+1491482437 /home/damis/Documents/CBProjects/Algorithms/alglib/fasttransforms.h
 	"ap.h"
 	"alglibinternal.h"
 
-1491061360 source:/home/damis/Documents/CBProjects/Algorithms/alglib/integration.cpp
+1491482437 source:/home/damis/Documents/CBProjects/Algorithms/alglib/integration.cpp
 	"stdafx.h"
 	"integration.h"
 
-1491061360 /home/damis/Documents/CBProjects/Algorithms/alglib/integration.h
+1491482437 /home/damis/Documents/CBProjects/Algorithms/alglib/integration.h
 	"ap.h"
 	"alglibinternal.h"
 	"linalg.h"
 	"specialfunctions.h"
 
-1491061360 source:/home/damis/Documents/CBProjects/Algorithms/alglib/interpolation.cpp
+1491482437 source:/home/damis/Documents/CBProjects/Algorithms/alglib/interpolation.cpp
 	"stdafx.h"
 	"interpolation.h"
 
-1491061360 /home/damis/Documents/CBProjects/Algorithms/alglib/interpolation.h
+1491482437 /home/damis/Documents/CBProjects/Algorithms/alglib/interpolation.h
 	"ap.h"
 	"alglibinternal.h"
 	"alglibmisc.h"
@@ -166,27 +166,27 @@
 	"specialfunctions.h"
 	"integration.h"
 
-1491061360 source:/home/damis/Documents/CBProjects/Algorithms/alglib/linalg.cpp
+1491482437 source:/home/damis/Documents/CBProjects/Algorithms/alglib/linalg.cpp
 	"stdafx.h"
 	"linalg.h"
 
-1491061360 source:/home/damis/Documents/CBProjects/Algorithms/alglib/optimization.cpp
+1491482437 source:/home/damis/Documents/CBProjects/Algorithms/alglib/optimization.cpp
 	"stdafx.h"
 	"optimization.h"
 
-1491061360 source:/home/damis/Documents/CBProjects/Algorithms/alglib/solvers.cpp
+1491482437 source:/home/damis/Documents/CBProjects/Algorithms/alglib/solvers.cpp
 	"stdafx.h"
 	"solvers.h"
 
-1491061360 source:/home/damis/Documents/CBProjects/Algorithms/alglib/specialfunctions.cpp
+1491482437 source:/home/damis/Documents/CBProjects/Algorithms/alglib/specialfunctions.cpp
 	"stdafx.h"
 	"specialfunctions.h"
 
-1491061360 source:/home/damis/Documents/CBProjects/Algorithms/alglib/statistics.cpp
+1491482437 source:/home/damis/Documents/CBProjects/Algorithms/alglib/statistics.cpp
 	"stdafx.h"
 	"statistics.h"
 
-1491061360 source:/home/damis/Documents/CBProjects/Algorithms/ARFF.cpp
+1491482437 source:/home/damis/Documents/CBProjects/Algorithms/ARFF.cpp
 	"ARFF.h"
 	"AdditionalMethods.h"
 	<fstream>
@@ -196,53 +196,53 @@
 	<algorithm>
 	<iostream>
 
-1491061360 /home/damis/Documents/CBProjects/Algorithms/ARFF.h
+1491482437 /home/damis/Documents/CBProjects/Algorithms/ARFF.h
 	<vector>
 	<string>
 	"DataObject.h"
 
-1491061360 source:/home/damis/Documents/CBProjects/Algorithms/ClusterizationMethods.cpp
+1491482437 source:/home/damis/Documents/CBProjects/Algorithms/ClusterizationMethods.cpp
 	"ClusterizationMethods.h"
 	"AdditionalMethods.h"
 	"Statistics.h"
 	<vector>
 
-1491061360 /home/damis/Documents/CBProjects/Algorithms/ClusterizationMethods.h
+1491482437 /home/damis/Documents/CBProjects/Algorithms/ClusterizationMethods.h
 	"DimReductionMethod.h"
 	"alglib/dataanalysis.h"
 
-1491061360 /home/damis/Documents/CBProjects/Algorithms/DimReductionMethod.h
+1491482437 /home/damis/Documents/CBProjects/Algorithms/DimReductionMethod.h
 	"ObjectMatrix.h"
 	"HPCMethod.h"
 
-1491063948 /home/damis/Documents/CBProjects/Algorithms/HPCMethod.h
+1491482437 /home/damis/Documents/CBProjects/Algorithms/HPCMethod.h
 	"ObjectMatrix.h"
 	"WebInterface.h"
 
-1491061360 /home/damis/Documents/CBProjects/Algorithms/WebInterface.h
+1491482437 /home/damis/Documents/CBProjects/Algorithms/WebInterface.h
 
-1491061360 /home/damis/Documents/CBProjects/Algorithms/Statistics.h
+1491482437 /home/damis/Documents/CBProjects/Algorithms/Statistics.h
 	"DataObject.h"
 	"ObjectMatrix.h"
 
-1491061360 source:/home/damis/Documents/CBProjects/Algorithms/cmdLineParser/CommandLineParser.cpp
+1491482437 source:/home/damis/Documents/CBProjects/Algorithms/cmdLineParser/CommandLineParser.cpp
 	"CommandLineParser.h"
 
-1491061360 /home/damis/Documents/CBProjects/Algorithms/cmdLineParser/CommandLineParser.h
+1491482437 /home/damis/Documents/CBProjects/Algorithms/cmdLineParser/CommandLineParser.h
 	<vector>
 	<string>
 	<map>
 
-1491061360 source:/home/damis/Documents/CBProjects/Algorithms/DataObject.cpp
+1491482437 source:/home/damis/Documents/CBProjects/Algorithms/DataObject.cpp
 	"DataObject.h"
 
-1491061360 source:/home/damis/Documents/CBProjects/Algorithms/DECTREE.cpp
+1491482437 source:/home/damis/Documents/CBProjects/Algorithms/DECTREE.cpp
 	"DECTREE.h"
 
-1491061360 /home/damis/Documents/CBProjects/Algorithms/DECTREE.h
+1491482437 /home/damis/Documents/CBProjects/Algorithms/DECTREE.h
 	"ClusterizationMethods.h"
 
-1491061360 source:/home/damis/Documents/CBProjects/Algorithms/DimReductionMethod.cpp
+1491482437 source:/home/damis/Documents/CBProjects/Algorithms/DimReductionMethod.cpp
 	"DimReductionMethod.h"
 	"DistanceMetrics.h"
 	"AdditionalMethods.h"
@@ -250,14 +250,14 @@
 	<cmath>
 	<iostream>
 
-1491061360 /home/damis/Documents/CBProjects/Algorithms/DistanceMetrics.h
+1491482437 /home/damis/Documents/CBProjects/Algorithms/DistanceMetrics.h
 	"DataObject.h"
 	"ObjectMatrix.h"
 	"DistanceMetricsEnum.h"
 
-1491061360 /home/damis/Documents/CBProjects/Algorithms/DistanceMetricsEnum.h
+1491482437 /home/damis/Documents/CBProjects/Algorithms/DistanceMetricsEnum.h
 
-1491061360 source:/home/damis/Documents/CBProjects/Algorithms/DistanceMetrics.cpp
+1491482437 source:/home/damis/Documents/CBProjects/Algorithms/DistanceMetrics.cpp
 	<cstdlib>
 	"DistanceMetrics.h"
 	"DistanceMetricsEnum.h"
@@ -266,7 +266,7 @@
 	<algorithm>
 	<numeric>
 
-1491061360 source:/home/damis/Documents/CBProjects/Algorithms/DMA.cpp
+1491482437 source:/home/damis/Documents/CBProjects/Algorithms/DMA.cpp
 	"DMA.h"
 	"ShufleEnum.h"
 	"ShufleObjects.h"
@@ -278,34 +278,34 @@
 	<cmath>
 	<iostream>
 
-1491061360 /home/damis/Documents/CBProjects/Algorithms/DMA.h
+1491482437 /home/damis/Documents/CBProjects/Algorithms/DMA.h
 	"ObjectMatrix.h"
 	"MDS.h"
 
-1491061360 /home/damis/Documents/CBProjects/Algorithms/MDS.h
+1491482437 /home/damis/Documents/CBProjects/Algorithms/MDS.h
 	"ObjectMatrix.h"
 	"DimReductionMethod.h"
 
-1491061360 /home/damis/Documents/CBProjects/Algorithms/ShufleEnum.h
+1491482437 /home/damis/Documents/CBProjects/Algorithms/ShufleEnum.h
 
-1491061360 /home/damis/Documents/CBProjects/Algorithms/ShufleObjects.h
+1491482437 /home/damis/Documents/CBProjects/Algorithms/ShufleObjects.h
 	"ObjectMatrix.h"
 	"ShufleEnum.h"
 
-1491061360 source:/home/damis/Documents/CBProjects/Algorithms/HPCMethod.cpp
+1491482437 source:/home/damis/Documents/CBProjects/Algorithms/HPCMethod.cpp
 	"HPCMethod.h"
 	"AdditionalMethods.h"
 
-1491061360 source:/home/damis/Documents/CBProjects/Algorithms/KMEANS.cpp
+1491482437 source:/home/damis/Documents/CBProjects/Algorithms/KMEANS.cpp
 	"KMEANS.h"
 	"alglib/dataanalysis.h"
 	"AdditionalMethods.h"
 	<iostream>
 
-1491061360 /home/damis/Documents/CBProjects/Algorithms/KMEANS.h
+1491482437 /home/damis/Documents/CBProjects/Algorithms/KMEANS.h
 	"ClusterizationMethods.h"
 
-1491061360 source:/home/damis/Documents/CBProjects/Algorithms/MDS.cpp
+1491482437 source:/home/damis/Documents/CBProjects/Algorithms/MDS.cpp
 	"MDS.h"
 	"ARFF.h"
 	"string"
@@ -317,7 +317,7 @@
 	"AdditionalMethods.h"
 	<iostream>
 
-1493303101 source:/home/damis/Documents/CBProjects/Algorithms/main.cpp
+1494331192 source:/home/damis/Documents/CBProjects/Algorithms/main.cpp
 	<cstdlib>
 	<vector>
 	<iostream>
@@ -351,20 +351,20 @@
 	<sstream>
 	<algorithm>
 
-1491061360 /home/damis/Documents/CBProjects/Algorithms/SMACOF.h
+1491482437 /home/damis/Documents/CBProjects/Algorithms/SMACOF.h
 	"ObjectMatrix.h"
 	"MDS.h"
 
-1491061360 /home/damis/Documents/CBProjects/Algorithms/SAMANN.h
+1491482437 /home/damis/Documents/CBProjects/Algorithms/SAMANN.h
 	"ObjectMatrix.h"
 	"DimReductionMethod.h"
 
-1491061360 /home/damis/Documents/CBProjects/Algorithms/SMACOFZEIDEL.h
+1491482437 /home/damis/Documents/CBProjects/Algorithms/SMACOFZEIDEL.h
 	"ObjectMatrix.h"
 	"SMACOF.h"
 	"ShufleEnum.h"
 
-1491061360 /home/damis/Documents/CBProjects/Algorithms/SDS.h
+1491482437 /home/damis/Documents/CBProjects/Algorithms/SDS.h
 	"ObjectMatrix.h"
 	"PCA.h"
 	"SMACOF.h"
@@ -372,18 +372,18 @@
 	"DistanceMetricsEnum.h"
 	"ProjectionEnum.h"
 
-1491061360 /home/damis/Documents/CBProjects/Algorithms/PCA.h
+1491482437 /home/damis/Documents/CBProjects/Algorithms/PCA.h
 	"ObjectMatrix.h"
 	"DimReductionMethod.h"
 	"alglib/ap.h"
 
-1491061360 /home/damis/Documents/CBProjects/Algorithms/ProjectionEnum.h
+1491482437 /home/damis/Documents/CBProjects/Algorithms/ProjectionEnum.h
 
-1491061360 /home/damis/Documents/CBProjects/Algorithms/SOM.h
+1491482437 /home/damis/Documents/CBProjects/Algorithms/SOM.h
 	"ObjectMatrix.h"
 	"DimReductionMethod.h"
 
-1491061360 /home/damis/Documents/CBProjects/Algorithms/SOMMDS.h
+1491482437 /home/damis/Documents/CBProjects/Algorithms/SOMMDS.h
 	"ObjectMatrix.h"
 	"SMACOF.h"
 	"SOM.h"
@@ -401,17 +401,17 @@
 1488556591 /mpich/include/mpicxx.h
 	<stdio.h>
 
-1491061360 /home/damis/Documents/CBProjects/Algorithms/Projection.h
+1491482437 /home/damis/Documents/CBProjects/Algorithms/Projection.h
 	"ObjectMatrix.h"
 	"ProjectionEnum.h"
 
-1491061360 /home/damis/Documents/CBProjects/Algorithms/MLP.h
+1491482437 /home/damis/Documents/CBProjects/Algorithms/MLP.h
 	"ClusterizationMethods.h"
 
-1491061360 source:/home/damis/Documents/CBProjects/Algorithms/MLP.cpp
+1491482437 source:/home/damis/Documents/CBProjects/Algorithms/MLP.cpp
 	"MLP.h"
 
-1491061360 source:/home/damis/Documents/CBProjects/Algorithms/PCA.cpp
+1491482437 source:/home/damis/Documents/CBProjects/Algorithms/PCA.cpp
 	<math.h>
 	"PCA.h"
 	"Statistics.h"
@@ -422,7 +422,7 @@
 	<algorithm>
 	"AdditionalMethods.h"
 
-1491061360 source:/home/damis/Documents/CBProjects/Algorithms/ObjectMatrix.cpp
+1491482437 source:/home/damis/Documents/CBProjects/Algorithms/ObjectMatrix.cpp
 	"ObjectMatrix.h"
 	"AdditionalMethods.h"
 	"ARFF.h"
@@ -433,7 +433,7 @@
 	<algorithm>
 	"/mpich/include/mpi.h"
 
-1491061360 source:/home/damis/Documents/CBProjects/Algorithms/Projection.cpp
+1491482437 source:/home/damis/Documents/CBProjects/Algorithms/Projection.cpp
 	"DataObject.h"
 	"Statistics.h"
 	"ObjectMatrix.h"
@@ -442,7 +442,7 @@
 	"PCA.h"
 	<cmath>
 
-1491061360 source:/home/damis/Documents/CBProjects/Algorithms/SAMANN.cpp
+1491482437 source:/home/damis/Documents/CBProjects/Algorithms/SAMANN.cpp
 	"SAMANN.h"
 	"Statistics.h"
 	"DistanceMetrics.h"
@@ -451,7 +451,7 @@
 	<float.h>
 	<iostream>
 
-1492089363 source:/home/damis/Documents/CBProjects/Algorithms/SDS.cpp
+1494331398 source:/home/damis/Documents/CBProjects/Algorithms/SDS.cpp
 	"SDS.h"
 	"ShufleObjects.h"
 	"Projection.h"
@@ -465,13 +465,13 @@
 	<cmath>
 	<iostream>
 
-1491061360 source:/home/damis/Documents/CBProjects/Algorithms/ShufleObjects.cpp
+1491482437 source:/home/damis/Documents/CBProjects/Algorithms/ShufleObjects.cpp
 	"ShufleObjects.h"
 	"DataObject.h"
 	"Statistics.h"
 	<iostream>
 
-1491061360 source:/home/damis/Documents/CBProjects/Algorithms/SMACOF.cpp
+1491482437 source:/home/damis/Documents/CBProjects/Algorithms/SMACOF.cpp
 	"SMACOF.h"
 	"ShufleObjects.h"
 	<string>
@@ -484,14 +484,14 @@
 	"AdditionalMethods.h"
 	"DistanceMetrics.h"
 
-1491061360 source:/home/damis/Documents/CBProjects/Algorithms/SMACOFZEIDEL.cpp
+1491482437 source:/home/damis/Documents/CBProjects/Algorithms/SMACOFZEIDEL.cpp
 	"SMACOFZEIDEL.h"
 	"ShufleObjects.h"
 	<float.h>
 	<iostream>
 	<cmath>
 
-1491061360 source:/home/damis/Documents/CBProjects/Algorithms/SOM.cpp
+1491482437 source:/home/damis/Documents/CBProjects/Algorithms/SOM.cpp
 	"SOM.h"
 	"Statistics.h"
 	"DistanceMetrics.h"
@@ -502,11 +502,11 @@
 	"AdditionalMethods.h"
 	<algorithm>
 
-1491061360 source:/home/damis/Documents/CBProjects/Algorithms/SOMMDS.cpp
+1491482437 source:/home/damis/Documents/CBProjects/Algorithms/SOMMDS.cpp
 	"SOMMDS.h"
 	"SOM.h"
 
-1491061360 source:/home/damis/Documents/CBProjects/Algorithms/Statistics.cpp
+1491482437 source:/home/damis/Documents/CBProjects/Algorithms/Statistics.cpp
 	<cmath>
 	"Statistics.h"
 	"AdditionalMethods.h"
@@ -515,7 +515,7 @@
 	<stdlib.h>
 	<iostream>
 
-1493302739 source:/home/damis/Documents/CBProjects/Algorithms/SDS2.cpp
+1494335068 source:/home/damis/Documents/CBProjects/Algorithms/SDS2.cpp
 	"SDS2.h"
 	"ShufleObjects.h"
 	"Projection.h"
@@ -531,7 +531,7 @@
 
 1492080774 /home/damis/Documents/CBProjects/Algorithms/include/SDS2.h
 
-1492093022 /home/damis/Documents/CBProjects/Algorithms/SDS2.h
+1494332777 /home/damis/Documents/CBProjects/Algorithms/SDS2.h
 	"ObjectMatrix.h"
 	"PCA.h"
 	"SMACOF.h"

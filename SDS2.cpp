@@ -62,8 +62,8 @@ ObjectMatrix SDS2::getProjection()
     StaticData2::Y_base = XXX;
     Y_new = ObjectMatrix(X.getObjectCount());
    // ObjectMatrix proj(m);
-    std::vector<unsigned int> index;
-    index.reserve(X.getObjectCount());
+   // std::vector<unsigned int> index;
+   // index.reserve(X.getObjectCount());
 /*
     switch (initMethod)
     {
@@ -105,14 +105,14 @@ ObjectMatrix SDS2::getProjection()
 
 
 
-    /* PCA_ pca(StaticData::X_base, d);
-    StaticData::Y_base = pca.getProjection();*/
+    PCA_ pca(StaticData2::X_base, d);
+    StaticData2::Y_base = pca.getProjection();
 
   /* for (int i = 0; i < StaticData::Y_base.getObjectCount(); i++)
            std::cout <<StaticData::Y_base.getObjectAt(i).getClassLabel();*/
 
-   /* SMACOF smcf(epsilon, maxIteration, d, StaticData::X_base, StaticData::Y_base);
-    StaticData::Y_base = smcf.getProjection(); */
+    SMACOF smcf(epsilon, maxIteration, d, StaticData2::X_base, StaticData2::Y_base);
+    StaticData2::Y_base = smcf.getProjection();
 
    Initialize(); // get the nearest
 
